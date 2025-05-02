@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/pharmacies"; // Update with your backend URL
+const API_URL = "https://lashma-server.onrender.com/api/pharmacies"; // Update with your backend URL
 
 // Create a new pharmacy
 export const createPharmacy = async (pharmacyData) => {

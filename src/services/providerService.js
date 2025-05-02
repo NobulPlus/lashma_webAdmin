@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/providers"; // Update with your backend URL
+const API_URL = "https://lashma-server.onrender.com/api/providers"; // Update with your backend URL
 
 // Create a new provider
 export const createProvider = async (providerData) => {

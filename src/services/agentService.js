@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/agents"; // Update with your backend URL
+const API_URL = "https://lashma-server.onrender.com/api/agents"; // Update with your backend URL
 
 // Create a new agent
 export const createAgent = async (agentData) => {
