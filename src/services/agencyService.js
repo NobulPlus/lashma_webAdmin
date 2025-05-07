@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://lashma-server.onrender.com/api/agencies"; // Update with your backend URL
+const API_URL = "https://lashma-server.onrender.com/api/marketing-agents"; // Update with your backend URL
 
 // Create a new agency
 export const createAgency = async (agencyData) => {
